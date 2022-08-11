@@ -1,0 +1,112 @@
+.App {
+    text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #1abb22;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #b02868;
+}
+
+.App-link {
+    color: #0dbad8;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card-body{
+    height: 140px;
+    background-color: #f38d21;
+
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 150px;
+  height: 150px;
+left: 150px;
+}
+
+
+
+.alert-success {
+    color: #F2EAD7;
+    background-color: #F2EAD7;
+    border-color: #badbcc;
+}
+
+.h4, h4 {
+
+    color: #f38d21;
+    background-color: #563313;
+    
+}
+
+.display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+    color: #f38d21;
+    background-color: #563313;
+}
+
+.navbar-light .navbar-brand {
+    background-color: #F2EAD7;
+}
+.navbar>.container{
+    background-color: #F2EAD7;
+}
+.navbar-expand {
+    background-color: #F2EAD7
+}
+
+.h1, h1 {
+    color: #f38d21;
+   
+}
+
+p {
+ color: #563313;
+ 
+}
+
+p {
+    color: #563313;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display:inline-flexbox;
+    flex-wrap: inherit;
+    align-items: center;
+
+    
+  
+}
+.navbar-light .navbar-nav .nav-link {
+  
+}
+
+
+element.style {
+background-color: #F2EAD7;
+}
+
+
